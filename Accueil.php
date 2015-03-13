@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-		<?php include("Entete.php");?>
+		<?php 
+		include("Entete.php");
+		setTitle($Accueil,true,$texte="Bienvenue sur Vegan Heaven !");
+		?>
     </head>
      <body>
         <?php include("Menu.php");?>

@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-		<?php include("Entete.php");?>
+		<?php 
+		include("Entete.php");
+		setTitle($Connection_Inscription,true,$texte="Rejoignez-nous");
+		?>
     </head>
      <body>
         <div>

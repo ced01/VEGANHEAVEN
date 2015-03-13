@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-       <?php include("Entete.php");?>
+      <?php 
+		include("Entete.php");
+		setTitle($aPropos,true,$texte="Aide en ligne");
+		?>
     </head>
      <body>
         <div>

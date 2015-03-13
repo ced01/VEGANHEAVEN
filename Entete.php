@@ -1,7 +1,14 @@
 <meta charset="utf-8" />
 
-            <title>VeganHeaven</title>
-			
+<?php
+		$Accueil=false;
+		$Offres=false;
+		$Forum=false;
+		$aPropos=false;
+		$Connection_Inscription=false;
+		include("fonction.php");
+
+ ?>
             <link rel="stylesheet" href="StyleGraphique.css" />
 			
             <!--[if lt IE 9]>
